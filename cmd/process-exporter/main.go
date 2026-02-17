@@ -14,10 +14,10 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/ncabatoff/fakescraper"
 	common "github.com/denizkoekden/process-exporter"
 	"github.com/denizkoekden/process-exporter/collector"
 	"github.com/denizkoekden/process-exporter/config"
+	"github.com/ncabatoff/fakescraper"
 	"github.com/prometheus/client_golang/prometheus"
 	verCollector "github.com/prometheus/client_golang/prometheus/collectors/version"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
